@@ -1,0 +1,5 @@
+const app = require('../server/server');
+const port = 7777;
+app.listen(port, () => {
+  console.log(`Running at Localhost on port ${port}`);
+});
